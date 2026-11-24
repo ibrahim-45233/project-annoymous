@@ -1,0 +1,285 @@
+I1123 21:03:35.034852      40 server.go:2656] Starting language server process with pid 17380
+I1123 21:03:35.070355      40 workflow_python.go:21] run_workflow Python: interpreter "", embedded true
+I1123 21:03:35.105170      40 server.go:2715] Language server version: 2.34.0
+I1123 21:03:35.105170      40 server.go:1290] Language server will attempt to listen on host localhost
+I1123 21:03:35.227389      40 server.go:1305] Language server listening on random port at 57911 for HTTPS (gRPC)
+I1123 21:03:35.230402      40 server.go:1313] Language server listening on random port at 50703 for HTTP
+I1123 21:03:35.300897      40 auth_provider.go:1199] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1123 21:03:35.303410      40 auth_provider.go:1143] [AuthProvider] SetProjectID called with projectID: ""
+I1123 21:03:35.303410      40 auth_provider.go:1151] [AuthProvider] SetLocation called with location: ""
+I1123 21:03:35.303410      40 auth_provider.go:1159] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1123 21:03:35.520562     122 store_client.go:714] summary store: starting background reconciliation (trigger=empty_on_open)
+I1123 21:03:35.528300     122 store_client.go:743] summary store: reconcile func returned 0 records, skipping
+W1123 21:03:35.606466      40 defaults.go:709] failed to get cs path: cs path /usr/bin/cs invalid
+I1123 21:03:35.608689      40 manager.go:162] Creating trajectory store manager with proto store and SQLite store
+I1123 21:03:35.639706     136 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1123 21:03:35.643879     136 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:35.643879     136 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1123 21:03:35.646763     136 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:35.646763     136 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1123 21:03:35.650568     136 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:35.651117     136 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1123 21:03:35.760916      40 server.go:2242] Serving UI bundle from embedded assets
+I1123 21:03:35.765441      96 server.go:4891] Auth succeeded, refreshing features and managers
+I1123 21:03:35.770974      40 server.go:4364] Wrote hub discovery file: C:\Users\DELL\.gemini\antigravity\daemon\hub_50703.json
+I1123 21:03:35.771999      40 server.go:4083] initialized server successfully in 707.9331ms
+I1123 21:03:36.013592      68 auth_provider.go:1143] [AuthProvider] SetProjectID called with projectID: ""
+I1123 21:03:36.013592      68 auth_provider.go:1151] [AuthProvider] SetLocation called with location: ""
+I1123 21:03:36.013592      68 auth_provider.go:1159] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1123 21:03:36.107124     114 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x20e92da4f8dab5e8
+I1123 21:03:36.583988      68 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x72c516164ca5b1d7
+W1123 21:03:36.821355      70 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded); falling back to CCPA
+I1123 21:03:37.006301      86 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x29f9be29b2f86f45
+I1123 21:03:37.031605      68 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4d91524de0b2e937
+I1123 21:03:37.166315      96 server.go:4910] State refresh took 1400ms
+I1123 21:03:37.166315     136 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1123 21:03:37.166315      86 http_helpers.go:108] UseAICodeMendel routing switch changed: false -> true
+I1123 21:03:37.167441      96 server.go:4925] [RemoteControl] Subscription callback triggered.
+I1123 21:03:37.171101      96 server.go:4928] [RemoteControl] RemoteControlEnabled value: false
+I1123 21:03:37.171101     136 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.171653     136 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1123 21:03:37.171101      96 server.go:6033] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1123 21:03:37.171653      96 server.go:5707] [RemoteControl] Resolved proxyServerURL: ""
+I1123 21:03:37.171653     136 manager.go:98] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] is enabled
+I1123 21:03:37.171653      96 server.go:4954] Retroactive projects migration enabled: true
+I1123 21:03:37.172176     136 manager.go:107] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.172726     136 manager.go:98] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is enabled
+I1123 21:03:37.175476     136 manager.go:107] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.175476     136 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1123 21:03:37.672943      96 projects_migration.go:567] Projects migration already started or completed, skipping
+I1123 21:03:37.678643     159 reconcile_summaries.go:94] [Summaries] reconcile checked 0 conversations, restored 0, cached 0, skipped 0, dropped 0, cancelled false in 2ms (resident: 0 -> 0)
+I1123 21:03:37.692731     275 server.go:4925] [RemoteControl] Subscription callback triggered.
+I1123 21:03:37.693248     313 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1123 21:03:37.696575     275 server.go:4928] [RemoteControl] RemoteControlEnabled value: false
+I1123 21:03:37.696575     275 server.go:6033] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1123 21:03:37.696575     275 server.go:5707] [RemoteControl] Resolved proxyServerURL: ""
+I1123 21:03:37.698550     313 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.698550     313 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1123 21:03:37.693955      96 profiler.go:231] Continuous pprof profiling is disabled.
+I1123 21:03:37.699941     313 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.700555     313 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1123 21:03:37.701185     313 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.701185     313 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1123 21:03:37.701996     313 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1123 21:03:37.703147     313 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.703147     313 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1123 21:03:37.703147     313 manager.go:98] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] is enabled
+I1123 21:03:37.704319     313 manager.go:107] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.704319     313 manager.go:98] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is enabled
+I1123 21:03:37.705563     313 manager.go:107] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:37.705563     313 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1123 21:03:37.706093     313 manager.go:107] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1123 21:03:40.943859     343 auth_status_telemetry.go:81] [auth-status] rpc=get_auth_status valid=true
+I1123 21:09:41.103563     731 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x27208231ccd328cb
+I1123 21:09:41.127293     205 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x14e0304db4c967fc
+I1123 21:15:36.713008    1205 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2152d6b470e3aa5d
+I1123 21:15:36.826504    1204 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc58084a19a0b0152
+I1123 21:21:36.123868    1577 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xed0316bcd557b4c0
+I1123 21:21:36.307189    1578 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3b31246f5f7b098
+I1123 21:27:38.150461    2018 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc2d02019a8e17b35
+I1123 21:27:38.250311    2019 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5bf96a981b202a05
+I1123 21:33:36.295916    2426 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x33e8399bdd91d819
+I1123 21:33:36.453438    2425 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe338913bc0ed82a6
+I1123 21:39:36.224787    2827 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa12be248b6fc1b67
+I1123 21:39:36.369786    2826 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa68b505be33a94f9
+I1123 21:45:37.907995    3242 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x586373b6721bfeea
+I1123 21:45:37.998811    3241 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x943abbd200bb95f8
+I1123 21:51:36.055064    3665 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f70ce31c656e2aa
+I1123 21:51:36.217532    3664 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3e4207cd79ba009f
+I1123 21:57:36.264004    4105 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0ba4099695d025c
+I1123 21:57:36.406153    4106 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3d120f2d4088ea5a
+I1123 22:03:36.669452    4509 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2d879744e5e027dd
+I1123 22:03:36.733795    4508 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x58e829e41408b2a4
+I1123 22:09:36.598182    4912 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3a7a42a93eec4a42
+I1123 22:09:36.624332    4911 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x820c81b8d8c347cf
+I1123 22:15:36.169474    5347 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc8ccc2b88e58f293
+I1123 22:15:36.350346    5346 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0dd2fd5ad5cb561
+I1123 22:21:36.408016    5763 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xed7bcd10f4e7d0d9
+I1123 22:21:36.458314    5762 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf76f94d93e240770
+I1123 22:27:36.413547    6162 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb8c533e2be308b91
+I1123 22:27:36.555778    6145 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1471a20aa285e012
+I1123 22:33:36.667452    6556 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd82ebbaac2ae8df2
+I1123 22:33:36.696260    6557 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5d46cb54d0be1002
+I1123 22:39:36.124789    7001 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5ba39fd75e233485
+I1123 22:39:36.393729    7000 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x32e14f2c822c2e6e
+I1123 22:45:36.201101    7423 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xeb24894d83dfa054
+I1123 22:45:36.239963    7422 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7815a4b510c02323
+I1123 22:51:36.324504    7806 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x88195a4cde4baa90
+I1123 22:51:36.318276    7807 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5096bb3ff4b7a3a0
+W1123 23:10:17.385733    8068 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:17.414523    8069 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1123 23:10:17.765012    8068 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1123 23:10:17.769325    8069 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:17.770058    8067 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": dial tcp: lookup aicode.googleapis.com: no such host); falling back to CCPA
+E1123 23:10:17.907782      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:17.934071    8068 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:17.944143    8069 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:18.161307    8072 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1123 23:10:18.161307    8072 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1123 23:10:18.168868    8072 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1123 23:10:19.100666      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+W1124 05:09:27.801206    7505 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host); falling back to CCPA
+W1124 05:09:27.802135    8100 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:27.802135    8100 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 05:09:27.801206    8099 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:27.918248    8099 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 05:09:28.564339    7885 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:28.603441    7885 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 05:09:28.741319    8099 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 05:09:28.783376    8100 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 05:09:29.132913    7885 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:29.359040      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:28.564339      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 05:09:27.801625      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 12:23:08.977757    8144 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": context deadline exceeded); falling back to CCPA
+W1124 12:23:25.041275    8158 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+E1124 12:23:25.056334    8158 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+W1124 12:23:25.043282    8145 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+E1124 12:23:25.085926    8145 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+E1124 12:23:25.077995      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+W1124 12:23:25.221011    8145 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+W1124 12:23:25.221631    8158 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+W1124 12:23:25.221631    8161 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+W1124 12:23:25.229692    8122 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+E1124 12:23:25.816438      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+I1124 12:24:36.097070    8347 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdfdf081cbe803c21
+I1124 12:24:37.250948    8346 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x600e252da8569f50
+I1124 12:30:37.730676    8762 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x20305b2a3190e6d0
+I1124 12:30:38.034080    8761 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd4e761626ef5a905
+I1124 12:36:36.591539    9180 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x17b8d494870ac7e8
+I1124 12:36:37.157264    9179 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3fd9928cde67191e
+I1124 12:42:36.025557    9585 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x22834f5bc57ac4d3
+I1124 12:42:36.224428    9586 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x85ad8721e9074d49
+I1124 12:48:36.268114    9993 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2ac3b0952999a4aa
+I1124 12:48:36.962834    9994 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xafb2dc004d2ef979
+I1124 12:54:36.029689   10402 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4397e277eeb07911
+I1124 12:54:36.636704   10419 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd88e5615b5c8e1fe
+I1124 13:00:36.585433   10828 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xecff227c72d10150
+I1124 13:00:37.194118   10829 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3190a70eaae0a37a
+I1124 13:06:36.668334   11240 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9767a27d886616e3
+I1124 13:06:36.679814   11241 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdf7cc84febb20c41
+W1124 13:37:19.064979   11202 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:19.110189   10895 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:19.282703   10894 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host); falling back to CCPA
+E1124 13:37:19.685404   11202 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:19.669694   10895 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:19.681403      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:20.550932    8264 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:20.550932    8264 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:20.615141    8264 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:20.626516   10895 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:37:20.651720   11202 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:21.284196      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:21.423557      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:37:21.484774      82 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:37:21.528219      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+W1124 13:43:37.216416   11417 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host); falling back to CCPA
+W1124 13:43:37.235024   11433 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.271597      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.287743   11418 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.287743   11418 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.287743   11418 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.300783   11433 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.340698   11433 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.341696   11455 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.474870      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.488934   11420 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.488934   11420 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 13:43:37.489943   11420 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.491938      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:37.602919      82 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:43:37.604512      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+W1124 13:43:39.973782   11370 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host); falling back to CCPA
+E1124 13:43:40.000768      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:42.637015      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:42.648431      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:43:42.657871      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:42.676746      82 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:43:47.672564      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:47.674204      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:43:47.683359      82 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 13:43:47.685309      82 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+I1124 13:44:37.233365   11571 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd15937b896f441f6
+I1124 13:44:37.969110   11538 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x15933b162306470b
+I1124 13:50:39.579984   11991 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x48012afc4b92cb99
+I1124 13:50:39.925810   12010 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8b84b78adbfca64a
+I1124 13:56:39.345648   12409 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa2e06d2952bb1e3d
+I1124 13:56:39.751486   12408 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3a7324c5d39c647f
+W1124 13:59:48.608837   12647 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded); falling back to CCPA
+W1124 13:59:48.639931   12422 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 13:59:48.639931   12422 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 13:59:48.640440      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 13:59:48.641034   12422 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 13:59:51.685938      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 13:59:56.709959      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:01.787365      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:06.813182      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:11.862312      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:16.925913      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:21.953586      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:26.992336      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:32.014515      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:37.047739      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+W1124 14:00:38.632126   12741 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": dial tcp: lookup aicode.googleapis.com: no such host); falling back to CCPA
+W1124 14:00:38.661142   12706 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 14:00:38.661142      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 14:00:38.661142   12706 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 14:00:38.662384   12706 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 14:00:42.417576      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:43.472336      84 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+E1124 14:00:47.480177      69 client.go:97] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+E1124 14:00:48.489297      84 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+I1124 14:02:39.552345   12927 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcb72aa191c2bbfa0
+I1124 14:02:39.557953   12926 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4dcae9789705cb0
+I1124 14:08:39.790387   13292 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd4534d298ab153cf
+I1124 14:08:41.215347   13293 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8817e140df348e05
+I1124 14:14:39.760228   13726 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x53039ddea67f2b29
+I1124 14:14:40.510358   13727 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa8d5a5b1fecb5f4a
+W1124 14:14:48.613827   13725 aicode_fallback.go:117] AICode request for fetch_config failed (failed to read AI Code FetchConfig response body: context deadline exceeded); falling back to CCPA
+I1124 14:20:39.756779   14143 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x49a9967a58362513
+I1124 14:20:39.810355   14142 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd9cd82cb1ead2017
+I1124 14:26:39.624535   14573 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4ebfbca3a4086b24
+I1124 14:26:39.744626   14572 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe13188d2c1161b33
+I1124 14:32:39.653702   14997 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaae95c820c871fce
+I1124 14:32:40.229311   14996 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0ceb2988b5ac8aa
+I1124 14:38:39.720438   15354 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4f66b65198e858c2
+I1124 14:38:40.713381   15355 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x22083e3a23b8cd12
+I1124 14:44:39.665358   15834 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xac219eead863832e
+I1124 14:44:40.572041   15833 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7962f30f83d02962
+I1124 14:50:41.717050   16223 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5461094bcf646f44
+I1124 14:50:43.806140   16222 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf7e842c6b015e44a
+I1124 14:56:39.595839   16647 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9f8144aabcf8df7d
+I1124 14:56:39.651666   16646 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7a2a65f70fb1e93e
+I1124 15:02:39.696813   17029 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x11268f7dc9b3ad42
+I1124 15:02:39.720444   17030 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb4ab694a3988f88e
+W1124 15:06:48.656789   17337 aicode_fallback.go:117] AICode request for fetch_config failed (failed to read AI Code FetchConfig response body: context deadline exceeded); falling back to CCPA
+I1124 15:08:39.423718   17508 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcf44e8951faecbd6
+I1124 15:08:40.202873   17464 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3dda21e34dcdb7db
+W1124 15:09:48.608623   17589 aicode_fallback.go:117] AICode request for fetch_config failed (failed to read AI Code FetchConfig response body: context deadline exceeded); falling back to CCPA
+W1124 15:21:27.173398   17754 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.158567   17752 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.298599   17751 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": dial tcp: lookup aicode.googleapis.com: no such host); falling back to CCPA
+E1124 15:21:27.300338   17754 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 15:21:27.302130   17752 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 15:21:27.396145      86 errorreport.go:282] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.412001   17754 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.414877   17752 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.517372   17756 cache.go:169] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1124 15:21:27.517678   17756 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.517678   17756 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 15:21:27.518185   17811 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1124 19:53:17.111607   17642 cache.go:169] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 19:53:17.192210   17643 cache.go:169] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 19:53:18.220613   17643 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 19:53:18.246458   17642 errorreport.go:282] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 19:53:18.714285   17641 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host); falling back to CCPA
+W1124 19:53:21.787968   17642 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 19:53:18.932437      69 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+W1124 19:53:21.873374   17643 cache.go:201] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": dial tcp: lookup oauth2.googleapis.com: no such host
+E1124 19:53:35.006402      69 client.go:97] Post "https://play.googleapis.com/log": net/http: TLS handshake timeout
+E1124 19:53:35.732293      84 server.go:1615] Failed to get OAuth token: failed to compute token: Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+I1124 19:54:39.210680   17949 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9ff46d5ada5bcffb
+I1124 19:54:39.287386   17948 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x41698f04ae7b711c
+W1124 20:19:50.432604   18148 aicode_fallback.go:117] AICode request for fetch_config failed (failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded); falling back to CCPA
+I1124 20:19:55.470057   18033 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4dee3cf4ae3f67c4
+I1124 20:19:55.533542   18149 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xaf311fba0d92c925

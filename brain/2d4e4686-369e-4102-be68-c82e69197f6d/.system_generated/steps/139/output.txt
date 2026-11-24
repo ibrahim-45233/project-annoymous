@@ -1,0 +1,6 @@
+Created At: 2026-11-23T21:23:56+05:00
+Completed At: 2026-11-23T21:24:09+05:00
+Command exited with code 0.
+
+Command output:
+react-chessboard exports: [ 'Chessboard' ]

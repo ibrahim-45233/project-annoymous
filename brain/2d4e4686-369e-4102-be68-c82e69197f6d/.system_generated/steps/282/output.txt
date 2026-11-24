@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+> stockfish-chess-arena@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2522 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.24 kB │ gzip:   0.74 kB
+dist/assets/index-BpIReQfV.css   32.99 kB │ gzip:   6.29 kB
+dist/assets/index-C8FjaO73.js   460.58 kB │ gzip: 140.14 kB
+✓ built in 41.90s

@@ -1,0 +1,67 @@
+Created At: 2026-11-23T21:34:29+05:00
+Completed At: 2026-11-23T21:34:42+05:00
+Command exited with code 0.
+
+Command output:
+=== STARTING STOCKFISH ARENA MULTI-MOVE VALIDATION TEST ===
+
+[UCI] Engine initialized: uciok
+[UCI] Engine ready: readyok
+[GAME] Starting new game with Stockfish...
+
+[HUMAN] Turn 1: Played e4
+[UCI] Sending position: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+[STOCKFISH] Calculated Best Move: e7e6 (bestmove e7e6 ponder f2f3)
+[VALIDATED LEGAL] Stockfish played: e6
+[BOARD FEN] rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+
+[HUMAN] Turn 2: Played Nf3
+[UCI] Sending position: rnbqkbnr/pppp1ppp/4p3/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2
+[STOCKFISH] Calculated Best Move: d7d5 (bestmove d7d5 ponder d2d3)
+[VALIDATED LEGAL] Stockfish played: d5
+[BOARD FEN] rnbqkbnr/ppp2ppp/4p3/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3
+
+[HUMAN] Turn 3: Played e5
+[UCI] Sending position: rnbqkbnr/ppp2ppp/4p3/3pP3/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3
+[STOCKFISH] Calculated Best Move: d5d4 (bestmove d5d4 ponder h2h4)
+[VALIDATED LEGAL] Stockfish played: d4
+[BOARD FEN] rnbqkbnr/ppp2ppp/4p3/4P3/3p4/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 4
+
+[HUMAN] Turn 4: Played Nxd4
+[UCI] Sending position: rnbqkbnr/ppp2ppp/4p3/4P3/3N4/8/PPPP1PPP/RNBQKB1R b KQkq - 0 4
+[STOCKFISH] Calculated Best Move: d8d4 (bestmove d8d4 ponder d1e2)
+[VALIDATED LEGAL] Stockfish played: Qxd4
+[BOARD FEN] rnb1kbnr/ppp2ppp/4p3/4P3/3q4/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5
+
+[HUMAN] Turn 5: Played a3
+[UCI] Sending position: rnb1kbnr/ppp2ppp/4p3/4P3/3q4/P7/1PPP1PPP/RNBQKB1R b KQkq - 0 5
+[STOCKFISH] Calculated Best Move: b8d7 (bestmove b8d7 ponder b1c3)
+[VALIDATED LEGAL] Stockfish played: Nd7
+[BOARD FEN] r1b1kbnr/pppn1ppp/4p3/4P3/3q4/P7/1PPP1PPP/RNBQKB1R w KQkq - 1 6
+
+====================================================
+🎉 ALL STOCKFISH ENGINE TURNS VERIFIED 100% LEGAL!
+====================================================
+Final Board State:
+   +------------------------+
+ 8 | r  .  b  .  k  b  n  r |
+ 7 | p  p  p  n  .  p  p  p |
+ 6 | .  .  .  .  p  .  .  . |
+ 5 | .  .  .  .  P  .  .  . |
+ 4 | .  .  .  q  .  .  .  . |
+ 3 | P  .  .  .  .  .  .  . |
+ 2 | .  P  P  P  .  P  P  P |
+ 1 | R  N  B  Q  K  B  .  R |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+PGN Notation:
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1. e4 e6 2. Nf3 d5 3. e5 d4 4. Nxd4 Qxd4 5. a3 Nd7 *

@@ -1,0 +1,3 @@
+Created At: 2026-11-24T14:52:43+05:00
+Completed At: 2026-11-24T14:52:45+05:00
+Made 1 replacement in C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\src\hooks\useChessGame.ts starting at line 233 (+7/-6 lines).

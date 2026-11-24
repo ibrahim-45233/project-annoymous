@@ -1,0 +1,71 @@
+I1124 20:35:44.035275      51 server.go:2723] Starting language server process with pid 19940
+I1124 20:35:44.052931      51 workflow_python.go:21] run_workflow Python: interpreter "", embedded true
+I1124 20:35:44.074497      51 server.go:2782] Language server version: 2.35.0
+I1124 20:35:44.074497      51 server.go:1293] Language server will attempt to listen on host localhost
+I1124 20:35:44.165370      51 server.go:1308] Language server listening on random port at 65222 for HTTPS (gRPC)
+I1124 20:35:44.167610      51 server.go:1316] Language server listening on random port at 63513 for HTTP
+I1124 20:35:44.233183      51 auth_provider.go:1199] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1124 20:35:44.242492      51 auth_provider.go:1143] [AuthProvider] SetProjectID called with projectID: ""
+I1124 20:35:44.242492      51 auth_provider.go:1151] [AuthProvider] SetLocation called with location: ""
+I1124 20:35:44.242492      51 auth_provider.go:1159] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1124 20:35:44.455047      91 store_client.go:714] summary store: starting background reconciliation (trigger=startup)
+I1124 20:35:44.466867      91 store_client.go:764] summary store: reconciliation complete, synced 3 records
+W1124 20:35:44.525068      51 defaults.go:709] failed to get cs path: cs path /usr/bin/cs invalid
+I1124 20:35:44.526200      51 manager.go:162] Creating trajectory store manager with proto store and SQLite store
+I1124 20:35:45.110420      63 auth_provider.go:1143] [AuthProvider] SetProjectID called with projectID: ""
+I1124 20:35:45.110420      63 auth_provider.go:1151] [AuthProvider] SetLocation called with location: ""
+I1124 20:35:45.110420      63 auth_provider.go:1159] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1124 20:35:45.372007      67 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd71c4db63ae78471
+I1124 20:35:45.923767      63 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xedbc65d8188e3dc8
+I1124 20:35:45.970350      85 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf4a0985e10f90705
+I1124 20:35:46.120903      85 http_helpers.go:108] UseAICodeMendel routing switch changed: false -> true
+I1124 20:35:46.465026      63 http_helpers.go:748] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1216bc7acae66b85
+I1124 20:35:47.304869     176 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1124 20:35:47.310192     176 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.310764     176 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1124 20:35:47.311406     176 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.311968     176 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1124 20:35:47.312531     176 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.312531     176 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1124 20:35:47.313092     176 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1124 20:35:47.313652     176 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.313652     176 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1124 20:35:47.314212     176 manager.go:98] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] is enabled
+I1124 20:35:47.314785     176 manager.go:107] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.314785     176 manager.go:98] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is enabled
+I1124 20:35:47.315800     176 manager.go:107] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.315800     176 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1124 20:35:47.470856      51 server.go:2288] Serving UI bundle from embedded assets
+I1124 20:35:47.478905     109 server.go:4968] Auth succeeded, refreshing features and managers
+I1124 20:35:47.480908      51 server.go:4441] Wrote hub discovery file: C:\Users\DELL\.gemini\antigravity\daemon\hub_63513.json
+I1124 20:35:47.480908      51 server.go:4160] initialized server successfully in 3.4347891s
+I1124 20:35:47.482908     109 server.go:4987] State refresh took 3ms
+I1124 20:35:47.482908     109 server.go:5002] [RemoteControl] Subscription callback triggered.
+I1124 20:35:47.485437     109 server.go:5005] [RemoteControl] RemoteControlEnabled value: false
+I1124 20:35:47.485437     109 server.go:6128] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1124 20:35:47.486955     109 server.go:5802] [RemoteControl] Resolved proxyServerURL: ""
+I1124 20:35:47.487976     109 server.go:5031] Retroactive projects migration enabled: true
+I1124 20:35:47.494990     109 projects_migration.go:567] Projects migration already started or completed, skipping
+I1124 20:35:47.498750     192 reconcile_summaries.go:94] [Summaries] reconcile checked 3 conversations, restored 0, cached 3, skipped 0, dropped 0, cancelled false in 1ms (resident: 0 -> 0)
+I1124 20:35:47.516852     187 server.go:5002] [RemoteControl] Subscription callback triggered.
+I1124 20:35:47.516852     250 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1124 20:35:47.517867     109 profiler.go:231] Continuous pprof profiling is disabled.
+I1124 20:35:47.520881     250 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.520881     250 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1124 20:35:47.521892     187 server.go:5005] [RemoteControl] RemoteControlEnabled value: false
+I1124 20:35:47.521892     187 server.go:6128] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1124 20:35:47.521892     187 server.go:5802] [RemoteControl] Resolved proxyServerURL: ""
+I1124 20:35:47.522882     250 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.522882     250 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1124 20:35:47.523884     250 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.523884     250 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1124 20:35:47.523884     250 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1124 20:35:47.524887     250 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.524887     250 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1124 20:35:47.524887     250 manager.go:98] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] is enabled
+I1124 20:35:47.527507     250 manager.go:107] Migration [MIGRATION_ID_RESET_MAGIC_WORKSPACE_VCS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.527507     250 manager.go:98] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is enabled
+I1124 20:35:47.528629     250 manager.go:107] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:47.528629     250 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1124 20:35:47.529775     250 manager.go:107] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1124 20:35:52.570778     299 auth_status_telemetry.go:81] [auth-status] rpc=get_auth_status valid=true

@@ -1,0 +1,56 @@
+Created At: 2026-11-24T14:55:02+05:00
+Completed At: 2026-11-24T14:55:11+05:00
+Command exited with code 1.
+
+Command output:
+================================================================================
+📋 SENIOR QA AUDIT: STOCKFISH CHESS ARENA COMPREHENSIVE 20-POINT TEST SUITE
+================================================================================
+
+[TEST 6] Legal Chess Moves (Move Generation & Rule Adherence)...
+  ✓ Legal move executed: e4
+  ✓ Legal move executed: e5
+  ✓ Legal move executed: Nf3
+  ✓ Legal move executed: Nc6
+  ✓ Legal move executed: Bc4
+  ✓ Legal move executed: Bc5
+  ✓ Legal move executed: c3
+  ✓ Legal move executed: Nf6
+  ✓ Legal move executed: d4
+  ✓ Legal move executed: exd4
+  ✓ Legal move executed: cxd4
+  ✓ Legal move executed: Bb4+
+  ✓ History records all 12 plies accurately
+✅ TEST 6 PASSED: Legal Chess Moves
+
+[TEST 7] Castling (White & Black Kingside & Queenside)...
+  ✓ White Kingside (O-O) moves King to g1 & Rook to f1
+  ✓ White Queenside (O-O-O) moves King to c1 & Rook to d1
+  ✓ Black Kingside (O-O) moves King to g8 & Rook to f8
+  ✓ Black Queenside (O-O-O) moves King to c8 & Rook to d8
+✅ TEST 7 PASSED: Castling (All 4 Quadrants Verified)
+
+[TEST 8] En Passant (White & Black captures)...
+  ✓ White en passant captures pawn on d6
+  ✓ Pawn on d5 removed from board
+  ✓ Black en passant captures pawn on d3
+  ✓ Pawn on d4 removed from board
+✅ TEST 8 PASSED: En Passant Captures
+
+[TEST 9] Pawn Promotion & Underpromotion (Q, R, B, N)...
+C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\node_modules\chess.js\dist\cjs\chess.js:2532
+                throw new Error(`Invalid move: ${JSON.stringify(move)}`);
+                ^
+
+Error: Invalid move: {"from":"e7","to":"e8","promotion":"q"}
+    at Chess.move (C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\node_modules\chess.js\dist\cjs\chess.js:2532:23)
+    at Object.<anonymous> (C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\test-complete-audit.cjs:90:9)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Object..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v26.0.0

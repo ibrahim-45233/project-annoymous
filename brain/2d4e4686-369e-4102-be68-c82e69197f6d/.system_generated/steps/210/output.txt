@@ -1,0 +1,29 @@
+Created At: 2026-11-23T21:33:29+05:00
+Completed At: 2026-11-23T21:33:41+05:00
+Command exited with code 1.
+
+Command output:
+=== STARTING STOCKFISH ARENA MULTI-MOVE TEST ===
+[UCI] Engine initialized: uciok
+[UCI] Engine ready: readyok
+[GAME] Starting new game...
+
+[HUMAN] Turn 1: Played e4
+[UCI] Sending: position fen rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+[UCI] Sending: go depth 6 movetime 1000
+[UCI] Engine ready: readyok
+[GAME] Starting new game...
+node:internal/event_target:1118
+  process.nextTick(() => { throw err; });
+                           ^
+
+Error: Invalid move: Nf3
+    at Chess.move (C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\node_modules\chess.js\dist\cjs\chess.js:2529:23)
+    at playNextHumanMove (C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\test-full-game.cjs:65:24)
+    at Worker.<anonymous> (C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\test-full-game.cjs:23:7)
+    at Worker.emit (node:events:509:20)
+    at MessagePort.<anonymous> (node:internal/worker:333:53)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+
+Node.js v26.0.0

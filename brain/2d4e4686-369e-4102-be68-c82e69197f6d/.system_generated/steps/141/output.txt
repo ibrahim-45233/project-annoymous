@@ -1,0 +1,8 @@
+Created At: 2026-11-23T21:24:16+05:00
+Completed At: 2026-11-23T21:24:23+05:00
+Command exited with code 0.
+
+Command output:
+turn: w
+move made: e4 fen: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+legal moves from e7: [ 'e6', 'e5' ]

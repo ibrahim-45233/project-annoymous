@@ -1,0 +1,33 @@
+
+> stockfish-chess-arena@0.1.0 dev
+> vite --host
+
+
+  VITE v5.4.21  ready in 617 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.56.1:5173/
+  ➜  Network: http://192.168.100.8:5173/
+12:27:47 pm [vite] hmr update /src/index.css, /src/App.tsx, /src/components/panels/DifficultySelector.tsx
+12:27:47 pm [vite] hmr update /src/index.css, /src/App.tsx, /src/components/panels/DifficultySelector.tsx
+12:28:22 pm [vite] hmr update /src/index.css, /src/App.tsx
+12:28:22 pm [vite] hmr update /src/index.css, /src/App.tsx
+12:28:44 pm [vite] hmr update /src/index.css, /src/App.tsx
+12:29:08 pm [vite] hmr update /src/components/board/ChessboardContainer.tsx, /src/index.css
+12:30:00 pm [vite] hmr update /src/components/board/BoardControls.tsx, /src/index.css
+12:30:00 pm [vite] hmr update /src/components/board/BoardControls.tsx, /src/index.css
+12:30:20 pm [vite] hmr update /src/components/panels/PlayerCard.tsx, /src/index.css
+12:30:37 pm [vite] hmr update /src/components/panels/MoveHistoryPanel.tsx, /src/index.css
+12:30:56 pm [vite] hmr update /src/components/panels/GameStatusBanner.tsx, /src/index.css
+12:31:33 pm [vite] hmr update /src/App.tsx, /src/index.css
+2:42:54 pm [vite] hmr update /src/index.css, /src/App.tsx, /src/components/panels/DifficultySelector.tsx, /src/components/dialogs/NewGameModal.tsx
+2:43:23 pm [vite] hmr update /src/index.css, /src/App.tsx, /src/components/panels/EngineStatusIndicator.tsx
+2:44:08 pm [vite] hmr update /src/index.css, /src/App.tsx
+2:45:32 pm [vite] hmr update /src/components/board/ChessboardContainer.tsx, /src/index.css
+2:45:55 pm [vite] hmr update /src/index.css, /src/App.tsx
+2:46:28 pm [vite] hmr update /src/App.tsx, /src/index.css
+2:52:45 pm [vite] hmr update /src/index.css, /src/App.tsx
+2:52:45 pm [vite] hmr update /src/index.css, /src/App.tsx
+2:52:54 pm [vite] hmr update /src/App.tsx, /src/index.css
+2:53:05 pm [vite] hmr update /src/components/board/ChessboardContainer.tsx, /src/index.css
+2:53:16 pm [vite] hmr update /src/components/board/EvaluationBar.tsx, /src/index.css

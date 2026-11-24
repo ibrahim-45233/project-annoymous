@@ -1,0 +1,32 @@
+Created At: 2026-11-24T13:02:05+05:00
+Completed At: 2026-11-24T13:02:16+05:00
+Command exited with code 0.
+
+Command output:
+
+Name                   
+----                   
+chessboard             
+index.d.ts             
+index.esm.js           
+index.js               
+components             
+context                
+media                  
+types                  
+consts.d.ts            
+functions.d.ts         
+index.d.ts             
+Board.d.ts             
+CustomDragLayer.d.ts   
+ErrorBoundary.d.ts     
+Notation.d.ts          
+Piece.d.ts             
+Square.d.ts            
+Squares.d.ts           
+chessboard-context.d.ts
+error.d.ts             
+pieces.d.ts            
+index.d.ts             
+
+

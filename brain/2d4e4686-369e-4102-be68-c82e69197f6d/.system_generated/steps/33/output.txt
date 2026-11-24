@@ -1,0 +1,4 @@
+Created At: 2026-11-23T21:15:48+05:00
+Completed At: 2026-11-23T21:15:48+05:00
+You have 2 background task(s) currently running:
+[{"taskId":"2d4e4686-369e-4102-be68-c82e69197f6d/task-20","toolName":"run_command","toolSummary":"Install npm packages","description":"cd 'C:\\Users\\DELL\\.gemini\\antigravity\\scratch\\stockfish-chess-arena'; npm install","startTime":"2026-11-23T16:13:28Z","logUri":"file:///C:/Users/DELL/.gemini/antigravity/brain/2d4e4686-369e-4102-be68-c82e69197f6d/.system_generated/tasks/task-20.log"},{"taskId":"2d4e4686-369e-4102-be68-c82e69197f6d/task-22","toolName":"run_command","toolSummary":"Install npm packages","description":"cd \"C:\\Users\\DELL\\.gemini\\antigravity\\scratch\\stockfish-chess-arena\"; npm install","startTime":"2026-11-23T16:13:46Z","logUri":"file:///C:/Users/DELL/.gemini/antigravity/brain/2d4e4686-369e-4102-be68-c82e69197f6d/.system_generated/tasks/task-22.log"}]

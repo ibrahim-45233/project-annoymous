@@ -1,0 +1,3 @@
+Created At: 2026-11-24T14:53:15+05:00
+Completed At: 2026-11-24T14:53:16+05:00
+Made 1 replacement in C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\src\components\board\EvaluationBar.tsx starting at line 47 (+1/-1 lines).

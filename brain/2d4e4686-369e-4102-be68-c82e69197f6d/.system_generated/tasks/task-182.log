@@ -1,0 +1,13 @@
+
+> stockfish-chess-arena@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2521 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.24 kB │ gzip:   0.74 kB
+dist/assets/index-CbjBxhyL.css   30.05 kB │ gzip:   5.93 kB
+dist/assets/index-30P4_X1w.js   444.87 kB │ gzip: 136.71 kB
+✓ built in 1m 45s

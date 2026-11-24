@@ -1,0 +1,6 @@
+Created At: 2026-11-23T21:21:34+05:00
+Completed At: 2026-11-23T21:21:46+05:00
+Command exited with code 0.
+
+Command output:
+Testing Stockfish 19 at: C:\Users\DELL\.gemini\antigravity\scratch\stockfish-chess-arena\node_modules\stockfish\bin\stockfish-19-lite-single.js

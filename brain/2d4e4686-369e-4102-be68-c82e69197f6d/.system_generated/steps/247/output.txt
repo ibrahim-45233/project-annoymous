@@ -1,0 +1,4 @@
+Created At: 2026-11-24T12:27:07+05:00
+Completed At: 2026-11-24T12:27:08+05:00
+You have 1 background task(s) currently running:
+[{"taskId":"2d4e4686-369e-4102-be68-c82e69197f6d/task-237","toolName":"run_command","toolSummary":"Start Stockfish Chess Arena dev server","description":"cd \"C:\\Users\\DELL\\.gemini\\antigravity\\scratch\\stockfish-chess-arena\"; npm run dev -- --host","startTime":"2026-11-23T16:35:46Z","logUri":"file:///C:/Users/DELL/.gemini/antigravity/brain/2d4e4686-369e-4102-be68-c82e69197f6d/.system_generated/tasks/task-237.log","isDaemon":true}]

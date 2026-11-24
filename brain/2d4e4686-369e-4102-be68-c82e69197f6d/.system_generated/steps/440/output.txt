@@ -1,0 +1,22 @@
+Created At: 2026-11-24T14:54:28+05:00
+Completed At: 2026-11-24T14:54:42+05:00
+Command exited with code 0.
+
+Command output:
+before en passant on d5: { type: 'p', color: 'b' }
+move result: Move {
+  color: 'w',
+  from: 'e5',
+  to: 'd6',
+  piece: 'p',
+  captured: 'p',
+  promotion: undefined,
+  flags: 'e',
+  san: 'exd6',
+  lan: 'e5d6',
+  before: 'rnbqkbnr/1pp1pppp/p7/3pP3/8/8/PPPP1PPP/RNBQKBNR w KQkq d6 0 3',
+  after: 'rnbqkbnr/1pp1pppp/p2P4/8/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3'
+}
+after en passant on d5: undefined
+on d6: { type: 'p', color: 'w' }
+FEN: rnbqkbnr/1pp1pppp/p2P4/8/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3

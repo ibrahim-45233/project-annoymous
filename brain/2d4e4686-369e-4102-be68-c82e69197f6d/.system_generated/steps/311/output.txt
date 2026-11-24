@@ -1,0 +1,91 @@
+Created At: 2026-11-24T12:34:32+05:00
+Completed At: 2026-11-24T12:34:47+05:00
+Command exited with code 0.
+
+Command output:
+===============================================================
+🧪 STOCKFISH CHESS ARENA: ADVANCED FEATURES VERIFICATION SUITE
+===============================================================
+
+[FEATURE 1] Testing Undo Move functionality...
+  ✓ History has 2 moves (e4, e5)
+  ✓ Turn is White after 2 moves
+  ✓ History empty after 2-step undo
+  ✓ FEN restored to start position
+  ✓ Turn is White
+  ✓ Human played d4
+  ✓ Reverted 1-step undo successfully
+✅ FEATURE 1 PASSED: Undo Move
+
+[FEATURE 3] Testing Move History & SAN Notation...
+  ✓ Executed move e4
+  ✓ Executed move e5
+  ✓ Executed move Nf3
+  ✓ Executed move Nc6
+  ✓ Executed move Bb5
+  ✓ Executed move a6
+  ✓ Executed move Bxc6
+  ✓ Executed move dxc6
+  ✓ 8 moves in history
+  ✓ Algebraic notation: Bb5
+  ✓ Capture notation: Bxc6
+  ✓ PGN format valid
+✅ FEATURE 3 PASSED: Move History & SAN Notation
+
+[FEATURE 4] Testing Board Flip & Perspective...
+  ✓ Orientation flipped to black
+  ✓ Orientation flipped back to white
+  ✓ When player is Black, Stockfish (White) moves first
+✅ FEATURE 4 PASSED: Board Flip & Perspective
+
+[FEATURE 5] Testing New Game Reset...
+  ✓ Game in progress
+  ✓ Board state reset
+  ✓ History cleared
+  ✓ Turn reset to White
+  ✓ Game over flag cleared
+✅ FEATURE 5 PASSED: New Game Reset
+
+[FEATURE 7] Testing Chess Clocks & Increments...
+  ✓ White time updated with -4s + 2s increment: 178s
+  ✓ Black time updated with -5s + 2s increment: 177s
+  ✓ Timeout detected when clock hits 0
+✅ FEATURE 7 PASSED: Configurable Chess Clocks
+
+[FEATURE 8] Testing Captured Pieces & Material Differential...
+  ✓ 2 White pawns captured
+  ✓ Black Queen captured by White
+  ✓ White has material advantage after winning Black Queen (+8)
+✅ FEATURE 8 PASSED: Captured Pieces & Material Advantage
+
+[FEATURE 9] Testing Game Results (Checkmate, Stalemate, Draws)...
+  ✓ Scholar Mate: isCheckmate() is true
+  ✓ isGameOver() is true
+  ✓ Stalemate detected
+  ✓ isGameOver() is true on stalemate
+  ✓ King vs King: insufficient material detected
+  ✓ Threefold repetition detected
+✅ FEATURE 9 PASSED: Game Results Detection
+
+[FEATURE 10] Testing Pawn Promotion & Underpromotion...
+  ✓ Promoted pawn to Queen on f8
+  ✓ Piece on f8 is Queen
+  ✓ Underpromoted pawn to Knight on f8
+  ✓ Piece on f8 is Knight
+✅ FEATURE 10 PASSED: Pawn Promotion & Underpromotion
+
+[FEATURE 2 & 6] Testing Live Stockfish Hint and Difficulty via UCI...
+  [UCI] Received uciok
+[FEATURE 6] Testing UCI Difficulty Skill Level adjustment...
+  ✓ Skill Level option accepted by Stockfish
+✅ FEATURE 6 PASSED: Difficulty Configuration
+
+[FEATURE 2] Testing Stockfish Hint calculation without altering position...
+  Position FEN before hint: r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3
+  ✓ Stockfish calculated hint move: b1c3
+  ✓ Original game position FEN remained completely unchanged
+✅ FEATURE 2 PASSED: Hint Calculation (Position Unchanged)
+
+===============================================================
+🎉 ALL 10/10 ADVANCED FEATURES FULLY VERIFIED & PASSED!
+===============================================================

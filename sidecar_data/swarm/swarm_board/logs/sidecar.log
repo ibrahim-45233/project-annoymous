@@ -1,0 +1,4 @@
+=== sidecar "swarm/swarm_board" started at 2026-11-23T19:55:10+05:00 ===
+=== sidecar "swarm/swarm_board" runs unsandboxed ===
+[swarm_board] app data dirs: C:\Users\DELL\.gemini\antigravity
+[sidecar] listening on 127.0.0.1:51830
